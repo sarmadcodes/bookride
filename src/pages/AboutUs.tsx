@@ -148,7 +148,7 @@ export default function AboutUs() {
       {/* Hero Section */}
       <div className="relative h-96 overflow-hidden">
         <img 
-          src="/api/placeholder/1920/1080" 
+          src="https://deinfa.com/wp-content/uploads/2024/06/A-Guide-to-Electric-Cars-in-Pakistan-Featured-Image.png" 
           alt="RideEase fleet" 
           className="w-full h-full object-cover"
         />
