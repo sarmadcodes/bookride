@@ -229,7 +229,7 @@ export default function Home() {
           </div>
           
           <div className="text-center mt-6 sm:mt-8">
-            <Link to="/testimonials">
+            <Link to="/AboutUs">
               <button className="text-green-600 border border-green-600 px-5 sm:px-6 py-1.5 sm:py-2 rounded-full hover:bg-green-600 hover:text-white transition-colors duration-300 text-sm sm:text-base">
                 View All Reviews
               </button>
