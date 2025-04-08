@@ -189,12 +189,12 @@ export default function Home() {
 
       {/* Services Section with Background Effect - No Top Margin/Padding */}
       <div className="relative overflow-hidden">
-        <div className="absolute inset-0 opacity-5">
-          <div className="absolute inset-0 bg-gradient-to-br from-green-600 to-blue-800"></div>
-          <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1519241047957-be31d7379a5d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80')] bg-cover bg-center mix-blend-overlay"></div>
-        </div>
-        <Services />
-      </div>
+  <div className="absolute inset-0 opacity-5 pointer-events-none">
+    <div className="absolute inset-0 bg-gradient-to-br from-green-600 to-blue-800"></div>
+    <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1519241047957-be31d7379a5d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80')] bg-cover bg-center mix-blend-overlay"></div>
+  </div>
+  <Services />
+</div>
 
       {/* Reviews Section */}
       <div className="bg-gray-50 py-12 sm:py-16">
