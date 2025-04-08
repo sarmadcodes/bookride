@@ -139,9 +139,9 @@ export default function Home() {
       {[
         "https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg",
         "https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg",
-        "https://upload.wikimedia.org/wikipedia/commons/a/ab/Apple-logo.png",
+        "https://1000logos.net/wp-content/uploads/2017/02/Apple-Logosu.png",
         "https://upload.wikimedia.org/wikipedia/commons/5/51/Google.png",
-        "https://upload.wikimedia.org/wikipedia/commons/0/02/Instagram_logo_2022.svg"
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/1200px-Instagram_icon.png"
       ].map((sponsor, i) => (
         <div key={i} className="w-28 md:w-40 h-12 md:h-16 flex items-center justify-center transition-transform duration-300 hover:scale-110">
           <img 
